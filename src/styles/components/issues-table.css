@@ -1,0 +1,14 @@
+.table-item {
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #c1c1c1;
+  display: table;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  white-space: nowrap;
+}
+
+.table-item:last-child {
+  margin-bottom: 0;
+}
