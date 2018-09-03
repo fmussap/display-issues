@@ -11,6 +11,10 @@ export const setReactIssues = (data) => {
 export const getReactIssues = () => {
   return async (dispatch) => {
     try {
+      // get the last 30 issues by default
+      // to change it have to check the properties 'open_issues_count'
+      // at https://api.github.com/repos/facebook/react
+      // and work with the params page and per_page in the default api
       const url = 'https://api.github.com/repos/facebook/react/issues';
       const response = await axios.get(url);
       const { data } = response;
