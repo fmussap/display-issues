@@ -1,3 +1,5 @@
+### Display React Project Issue Status
+
 To install it:
 1) Clone or download this repo;
 2) In the main directory run ``yarn install`` or ``npm install``
